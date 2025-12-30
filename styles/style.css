@@ -1,0 +1,13 @@
+body {
+  background-color: lightgray;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 2em;
+  background-color: white;
+  padding: 0.2em;
+  border: 0.1em solid black;
+  border-radius: 0.4em;
+}
