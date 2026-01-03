@@ -1,6 +1,7 @@
 body {
   background-color: lightgray;
   font-family: sans-serif;
+  text-align: center;
 }
 
 header {
@@ -10,6 +11,21 @@ header {
   padding: 0.2em;
   border: 0.1em solid black;
   border-radius: 0.4em;
+}
+
+.roll-control-panel {
+  display: inline-block;
+  background-color: whitesmoke;
+  border: 0.05rem solid black;
+  border-radius: 0.4rem;
+  margin: 0.2rem;
+  padding: 0.4rem;
+}
+
+.roll-info {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0.4rem;
 }
 
 .dice-box {
@@ -38,6 +54,23 @@ header {
 }
 
 .select-button {
+  background-color: darkslategray;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
   font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.4rem;
   margin: 0.7rem 0.2rem;
 }
+
+.roll-button {
+  width: 90%;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.4rem;
+ }
