@@ -78,6 +78,11 @@ header {
   color: black;
 }
 
+.select-button.hide {
+  background-color: transparent;
+  color: transparent;
+}
+
 .roll-button {
   width: 90%;
   background-color: green;
